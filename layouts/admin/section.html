@@ -1,0 +1,7 @@
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{- $adminjs := resources.Get "js/admin.ts" | js.Build }}
+{{- if not site.Params.assets.disableFingerprinting }}
+    <script defer crossorigin="anonymous" src="{{ $adminjs.RelPermalink }}" integrity="{{ $adminjs.Data.Integrity }}"></script>
+{{- else }}
+    <script defer crossorigin="anonymous" src="{{ $adminjs.RelPermalink }}"></script>
+{{- end }}
