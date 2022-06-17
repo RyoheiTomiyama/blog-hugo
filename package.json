@@ -1,0 +1,12 @@
+{
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {}
+  },
+  "dependencies": {
+    "netlify-cms-app": "^2.15.72"
+  },
+  "devDependencies": {},
+  "name": "blog-hugo",
+  "version": "0.1.0"
+}
