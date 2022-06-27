@@ -1,3 +1,8 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+
+[submodule "themes/Nextjs"]
+	path = themes/Nextjs
+	url = https://github.com/RyoheiTomiyama/blog-hugo-theme-by-nextjs.git
+	
