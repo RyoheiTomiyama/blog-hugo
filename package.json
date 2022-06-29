@@ -8,5 +8,10 @@
   },
   "devDependencies": {},
   "name": "blog-hugo",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "scripts": {
+    "server": "hugo server -D",
+    "build": "hugo --layoutDir=out",
+    "theme": "cd themes/Nextjs; yarn watch"
+  }
 }
